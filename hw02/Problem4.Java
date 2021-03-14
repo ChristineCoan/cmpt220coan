@@ -1,4 +1,4 @@
-import.Java.util.*;
+import java.util.*; // JA
 public class Problem4 {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
@@ -11,6 +11,6 @@ public class Problem4 {
         System.out.print("Enter the y coordinate of the second point: ");
         double y2=in.nextDouble();
         double slope= (y2-y1)/(x2-x1);
-        syetem.out.println("The slope for the line that connects two points "+x1+","+y1+" and "+x2+","+y2+" is "+slope);
+        System.out.println("The slope for the line that connects two points "+x1+","+y1+" and "+x2+","+y2+" is "+slope);
     }
 }

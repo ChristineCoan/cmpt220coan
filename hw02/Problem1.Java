@@ -1,4 +1,5 @@
 import java.util.*;
+// JA: This program had errors and did not compile. It should at least compile.
 public class Problem1 {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
@@ -8,7 +9,7 @@ public class Problem1 {
         double height=in.nextDouble();
         double perimeter= 2*(width+height);
         double area= width*height;
-        double length= Math.sqrt((width*width)(heigth*height));
+        double length= Math.sqrt((width*width)+(height*height)); // JA
         System.out.println("The perimeter is  "+ perimeter);
         System.out.println("The area is  "+ area);
         System.out.println("The length of the diagonal is  "+ length);

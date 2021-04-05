@@ -4,6 +4,7 @@ public class Problem2 {
         Scanner in=new Scanner(System.in);
         System.out.print("Enter a String: ");
         String str=in.nextLine();
+        title(str); // JA
     }
     public static void title (String str){
         char ch;

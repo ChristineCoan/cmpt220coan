@@ -14,6 +14,8 @@ public class Problem2 {
             System.out.println("The intersecting point is at (" + point[0] + ", " + point[1]+")");
         }
 	}
+
+    // JA: This is supposed to return a Point object
 	public static double[] getIntersectingPoint(double[][] points) {
 		double Xcentroid= (points[0][X]+points[1][X]+points[2][X])/3;
 		double Ycentroid= (points[0][Y]+points[3][Y]+points[2][Y])/3;

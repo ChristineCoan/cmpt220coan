@@ -17,6 +17,8 @@ public class Problem3 {
             System.out.println("The area of the triangel is "+Finalarea);
         }
 	}
+
+    // JA: This is supposed to take Point objects as arguments
 	public static double getTriangleArea(double[][] points) {
 		double side1 = Math.pow(Math.pow(points[1][X] - points[0][X], 2) + Math.pow(points[1][Y] - points[0][Y], 2), 0.5);
 		double side2 = Math.pow(Math.pow(points[2][X] - points[1][X], 2) + Math.pow(points[2][Y] - points[1][Y], 2), 0.5);

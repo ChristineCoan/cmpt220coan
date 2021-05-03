@@ -1,4 +1,5 @@
 import java.util.*;
+// JA: The objects had to be inserted in order of weight
 public class Problem2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

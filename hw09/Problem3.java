@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Problem3 {
     public static void main(String[] args) {
 
@@ -27,14 +28,16 @@ public class Problem3 {
     public static boolean isBinary(String binary) {
 
         for (char ch : binary.toCharArray()) {
-            if (ch != '1' && ch != '0') return false;
+            if (ch != '1' && ch != '0')
+                return false;
         }
         return true;
     }
 
 }
-    class BinaryFormatException extends IllegalArgumentException {
-        BinaryFormatException(String s) {
-            super(s);
-        }
+
+class BinaryFormatException extends IllegalArgumentException {
+    BinaryFormatException(String s) {
+        super(s);
     }
+}
